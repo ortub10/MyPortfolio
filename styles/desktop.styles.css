@@ -35,7 +35,7 @@ a:hover {
   text-align: center;
 }
 .summary figure {
-  padding: 100px;
+  padding: 100px 0px;
 }
 .summary p {
   padding: 20px;
@@ -48,20 +48,19 @@ a:hover {
   color: white;
 }
 #about > figure {
-  padding: 100px;
+  padding: 100px 0px;
 }
 .container {
   padding: 40px;
-  width: 60%;
   margin: auto;
   display: flex;
   justify-content: center;
-  gap: 20px;
 }
 
 .container p {
   width: 70%;
   font-size: 20px;
+  margin: auto;
 }
 .columns_medium ul {
   display: flex;
@@ -79,7 +78,7 @@ a:hover {
   color: black;
 }
 #work figure {
-  padding: 100px;
+  padding: 100px 0px;
 }
 
 .contain_works {
