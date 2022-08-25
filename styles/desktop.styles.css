@@ -10,6 +10,11 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  text-decoration: underline;
+  margin-bottom: 24px;
+}
+
 .main_page nav {
   width: 100%;
   position: fixed;
@@ -95,7 +100,7 @@ a {
   font-size: 25px;
   padding: 15px;
 }
-#work a:hover {
+#work .contain_works a:hover {
   background-color: azure;
   border-radius: 10px;
 }
