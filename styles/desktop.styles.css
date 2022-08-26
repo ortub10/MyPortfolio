@@ -95,6 +95,11 @@ h2 {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.applications {
+  margin-top: 40px;
+}
+
 #work a {
   text-decoration: underline;
   font-size: 25px;
