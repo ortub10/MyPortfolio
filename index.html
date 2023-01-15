@@ -4,193 +4,215 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/desktop.styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
-      media="all and (max-width:1057px)"
-      href="styles/mobile.styles.css"
+      media="all and (max-width:1200px)"
+      href="css/tablet.css"
     />
     <link
       rel="stylesheet"
-      media="all and (max-width:380px)"
-      href="styles/mini_mobile.styles.css"
+      media="all and (max-width:360px)"
+      href="css/mobile.css"
     />
     <title>Or Tubul Portfolio</title>
   </head>
   <body>
-    <section class="main_page">
-      <nav>
-        <ul>
-          <li><a href="./index.html#about">ABOUT</a></li>
-          <li><a href="./index.html#work">WORK</a></li>
-          <li>
-            <a href="https://github.com/ortub10" target="_blank">GITHUB</a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/or-tubul-a153b8213/"
-              target="_blank"
-              >LINKEDIN</a
-            >
-          </li>
-        </ul>
-      </nav>
-
-      <main class="summary">
-        <figure>
-          <img src="images/invent.png" alt="invent" />
-        </figure>
+    <header class="container-fluid">
+      <div class="container">
+        <div class="burger">
+          <img
+            id="burger_btn"
+            src="images/burger.jpg"
+            width="40"
+            alt="burger"
+          />
+        </div>
+        <nav id="nav_open">
+          <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#work">WORK</a></li>
+            <li>
+              <a href="https://github.com/ortub10" target="_blank">GITHUB</a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/or-tubul-a153b8213/"
+                target="_blank"
+                >LINKEDIN</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="container-fluid">
+      <div class="container">
+        <img class="img" src="images/invent.png" alt="invent" />
         <p>
           Hello, my name is Or Tubul. I'm Full Stack developer. <br />
           I have a bachelor's degree in math and computer science. <br />
-          Knowledge of programming languages and computing environments. <br />
+          Knowledge of programming languages and computing environments.
+          <br />
           Served in the Israel Defense Forces as a combat soldier in the Givati
           Infantry Brigade. <br />
           You can click <a href="download/Or Tubul Resume.docx">here</a> to
           download my resume.
         </p>
-      </main>
-    </section>
+      </div>
+    </main>
 
-    <section id="about">
-      <figure>
-        <img src="./images/about_me_or.png" alt="about" />
-      </figure>
+    <div id="about" class="about container-fluid">
       <div class="container">
-        <figure>
-          <img src="./images/develop.png" alt="develop" />
-        </figure>
-        <article>
-          <p>
-            I'm obsessed with making things and even more obsessed with making
-            things better. I am very precise in the small details and know where
-            to look properly.
-          </p>
-          <br />
-          <p>
-            My destination is to be able to full website strategy, design and
-            development, making pixel magic in photoshop and turning it into
-            beautiful, semantic HTML & CSS. My interests.
-          </p>
-          <br />
-          <p>
-            When I'm not designing, I'm probably hanging out with my best
-            friends, watching basketball or messing around on something inspired
-            by warren buffett.
-          </p>
-        </article>
-      </div>
-      <div class="columns_medium">
-        <h3>Things I Love</h3>
-        <ul>
-          <li>
-            <a href="http://www.wordpress.com"
-              ><img src="./images/wordpress_icon.png" alt="wordpress"
-            /></a>
-          </li>
-          <li>
-            <a href="http://www.apple.com/"
-              ><img src="./images/apple_icon.png" alt="apple"
-            /></a>
-          </li>
-          <li>
-            <a href="http://twitter.com"
-              ><img src="./images/twitter_gray.png" alt="twitter"
-            /></a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section id="work">
-      <figure>
-        <img src="./images/my-work.png" alt="about" />
-      </figure>
-      <h2>Webs</h2>
-      <div class="contain_works">
-        <a
-          class="no_mobile"
-          href="https://lighthearted-liger-eb2bb3.netlify.app"
-          target="_blank"
-          >Tesla | model 3</a
-        >
-        <a
-          class="no_mobile"
-          href="https://elegant-kitsune-249e1a.netlify.app"
-          target="_blank"
-          >Amazon Copy</a
-        >
-        <a
-          class="no_mobile"
-          href="https://glistening-cranachan-23bd09.netlify.app"
-          target="_blank"
-          >Mincarft Game</a
-        >
-        <a href="https://strong-otter-925364.netlify.app" target="_blank"
-          >Memory Game</a
-        >
-        <a
-          class="no_mobile"
-          href="https://kaleidoscopic-dragon-ee70bb.netlify.app"
-          target="_blank"
-          >Dice Game
-        </a>
+        <div class="image">
+          <img class="img" src="images/about_me_or.png" alt="about" />
+        </div>
 
-        <a
-          href="https://illustrious-licorice-59d257.netlify.app"
-          target="_blank"
-          >Match Findind
-        </a>
-
-        <a href="https://merry-pavlova-a7955d.netlify.app" target="_blank"
-          >Shoes App
-        </a>
-
-        <a href="https://golden-dodol-32bc5f.netlify.app" target="_blank"
-          >NASDAQ Index
-        </a>
-
-        <a href="https://grey-flex.netlify.app" target="_blank">Grey </a>
-
-        <a
-          href="https://landing-page-bootstrap-project.netlify.app"
-          target="_blank"
-          >Landing page</a
-        >
-
-        <a href=" https://jovial-choux-f6a0f6.netlify.app" target="_blank"
-          >VOD search</a
-        >
-      </div>
-      <p>*Not for mobile</p>
-
-      <div class="applications">
-        <h2>Applications</h2>
-        <div class="applicatins_link">
-          <a
-            target="_blank"
-            href="https://github.com/ortub10/smallApplicationExercises/tree/main/Module2Lesson3Drill3"
-          >
-            <img src="images/dialer.jpg" alt="dialer" width="200"
-          /></a>
-
-          <a
-            target="_blank"
-            href="https://github.com/ortub10/MiddleProjectApplication.git"
-          >
-            <img src="images/managing _contacts.jpg" alt="dialer" width="200"
-          /></a>
-
-          <a
-            target="_blank"
-            href="https://github.com/ortub10/X_O_Game_Application.git"
-          >
-            <img src="images/X_O_game.jpg" alt="dialer" width="200"
-          /></a>
+        <div class="detailes">
+          <img class="img" src="images/develop.png" alt="dev" />
+          <article>
+            <p>
+              I'm obsessed with making things and even more obsessed with making
+              things better. I am very precise in the small details and know
+              where to look properly.
+            </p>
+            <br />
+            <p>
+              My destination is to be able to full website strategy, design and
+              development, making pixel magic in photoshop and turning it into
+              beautiful, semantic HTML & CSS. My interests.
+            </p>
+            <br />
+            <p>
+              When I'm not designing, I'm probably hanging out with my best
+              friends, watching basketball or messing around on something
+              inspired by warren buffett.
+            </p>
+          </article>
+        </div>
+        <div class="love">
+          <h3>Things I Love</h3>
+          <ul>
+            <li>
+              <a href="http://www.wordpress.com"
+                ><img src="./images/wordpress_icon.png" alt="wordpress"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.apple.com/"
+                ><img src="./images/apple_icon.png" alt="apple"
+              /></a>
+            </li>
+            <li>
+              <a href="http://twitter.com"
+                ><img src="./images/twitter_gray.png" alt="twitter"
+              /></a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
-    <footer id="footer">
-      <p>Created by Or Tubul</p>
+    </div>
+
+    <div id="work" class="work container-fluid">
+      <div class="container">
+        <div class="image">
+          <img class="img" src="images/my-work.png" alt="work" />
+        </div>
+        <div class="the_links">
+          <h2>Webs</h2>
+          <div class="webs d_flex">
+            <a
+              class="no_mobile"
+              href="https://lighthearted-liger-eb2bb3.netlify.app"
+              target="_blank"
+              >Tesla | model 3</a
+            >
+            <a
+              class="no_mobile"
+              href="https://elegant-kitsune-249e1a.netlify.app"
+              target="_blank"
+              >Amazon Copy</a
+            >
+            <a
+              class="no_mobile"
+              href="https://glistening-cranachan-23bd09.netlify.app"
+              target="_blank"
+              >Mincarft Game</a
+            >
+            <a href="https://strong-otter-925364.netlify.app" target="_blank"
+              >Memory Game</a
+            >
+
+            <a href="https://grey-flex.netlify.app" target="_blank">Grey </a>
+
+            <a
+              href="https://landing-page-bootstrap-project.netlify.app"
+              target="_blank"
+              >Landing page</a
+            >
+          </div>
+
+          <h2>React</h2>
+          <div class="react d_flex">
+            <a
+              class="no_mobile"
+              href="https://kaleidoscopic-dragon-ee70bb.netlify.app"
+              target="_blank"
+              >Dice Game
+            </a>
+
+            <a
+              href="https://illustrious-licorice-59d257.netlify.app"
+              target="_blank"
+              >Match Findind
+            </a>
+
+            <a href="https://merry-pavlova-a7955d.netlify.app" target="_blank"
+              >Shoes App
+            </a>
+
+            <a href="https://golden-dodol-32bc5f.netlify.app" target="_blank"
+              >NASDAQ Index
+            </a>
+
+            <a href=" https://jovial-choux-f6a0f6.netlify.app" target="_blank"
+              >VOD search</a
+            >
+          </div>
+          <p>*Not for mobile</p>
+
+          <h2>Applications</h2>
+          <div class="applications">
+            <a
+              target="_blank"
+              href="https://github.com/ortub10/smallApplicationExercises/tree/main/Module2Lesson3Drill3"
+            >
+              <img src="images/dialer.jpg" alt="dialer" width="200"
+            /></a>
+
+            <a
+              target="_blank"
+              href="https://github.com/ortub10/MiddleProjectApplication.git"
+            >
+              <img src="images/managing _contacts.jpg" alt="dialer" width="200"
+            /></a>
+
+            <a
+              target="_blank"
+              href="https://github.com/ortub10/X_O_Game_Application.git"
+            >
+              <img src="images/X_O_game.jpg" alt="dialer" width="200"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid">
+      <div class="container">
+        <p>Created by Or Tubul</p>
+      </div>
     </footer>
+    <script src="js/burger.js"></script>
   </body>
 </html>

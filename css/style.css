@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.no_mobile::before {
+  content: "*";
+}
+
+header {
+  height: 48px;
+  background: black;
+  position: sticky;
+  top: 0;
+}
+
+.burger {
+  display: none;
+}
+
+header .container {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav ul li {
+  padding: 0 12px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header nav ul li a:hover {
+  color: green;
+}
+
+main {
+  min-height: 100vh;
+}
+
+main .container {
+  text-align: center;
+}
+
+main .container img {
+  margin: 28px 0;
+}
+
+main .container p {
+  margin: 48px 0;
+  font-size: 30px;
+}
+
+.about {
+  min-height: 100vh;
+  background-color: rgb(47, 47, 192);
+}
+
+.about .container {
+  color: white;
+}
+
+.about .container .image {
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.about .detailes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px;
+}
+
+.about .detailes article {
+  width: 70%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.about .love {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .love ul {
+  margin-top: 28px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.work {
+  min-height: 100vh;
+  background-color: aqua;
+}
+
+.work .container .image {
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.work .container .the_links {
+  text-align: center;
+}
+
+.work .container .the_links h2 {
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.work .container .the_links .d_flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.work .container .the_links .applications {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.work .container .the_links .applications a:hover {
+  background-color: transparent;
+}
+
+.work .container .the_links a {
+  font-size: 25px;
+  padding: 15px;
+  color: black;
+}
+
+.work .container .the_links a:hover {
+  background-color: azure;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 4px 0;
+  background: grey;
+  text-align: center;
+  font-size: 20px;
+}

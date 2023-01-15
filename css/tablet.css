@@ -1,0 +1,10 @@
+.img {
+  width: 95%;
+}
+
+.about .detailes {
+  flex-direction: column;
+}
+.about .detailes article {
+  margin-top: 20px;
+}
